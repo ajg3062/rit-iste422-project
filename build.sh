@@ -2,7 +2,6 @@
 
 echo "Cleaning existing classes..."
 rm -f *.class
-
 # This command looks for matching files and runs the rm command for each file
 # Note that {} are replaced with each file name
 find . -name \*.class -exec rm {} \;
